@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color:white;
+}
+header{
+    background-color: #212121;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: sticky;
+}
+
+.menubar{
+    cursor: pointer;
+    background-color: #212121;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: #212121;
+}
+
+.searchBar{
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    background-color: #212121;
+   
+}
+
+.searchBar>input{
+    width: 80%;
+    background-color: black;
+    height: 98%;
+    border:none;
+    padding-left: 10px;
+   
+}
+input:focus{
+   outline: none;
+}
+.search{
+    width:8%;
+   background-color: #303030;
+   cursor: pointer;
+}
+.search>span{
+    background-color: #303030;
+    align-self: center;
+    padding: 5px;
+}
+
+.mic{
+    border-radius: 50%;
+    padding: 3px;
+    margin-left:5px;
+    background-color: black;
+    cursor: pointer;
+}
+
+.mic > img{
+    background-color: black;
+}
+
+.navBar{
+    background-color: #212121;
+}
+
+.navBar>img{
+  margin-left: 13px;
+  cursor: pointer;
+  background-color: #212121;
+}
+
+main{
+    margin-top: 20px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+#detailScreen{
+    margin-left: 30px;
+   
+}
+
+#channel-logo> img{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#title,#channel-info{
+    border-bottom: 1px solid #80808079;
+    margin-bottom: 20px;
+}
+
+#title > p, #head>p{
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 10px;
+   
+}
+
+#views>p{
+    color: lightgray;
+    font-weight: bold;
+    
+}
+#views,#like,#download{
+    display: flex;
+    gap:5px;
+    align-items: center;
+}
+
+#likes{
+    display: flex;
+    gap:20px;
+    margin-right:20px ;
+}
+#content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
+
+#right{
+    display: flex;
+    gap:10px;
+}
+
+#container1{
+    display: flex;
+    justify-content: space-between;
+}
+
+#description{
+    padding-left: 60px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+
+#btn{
+    background-color: rgb(208, 16, 16);
+    padding: 10px;
+    height: fit-content;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#card{
+    display: flex;
+    gap:20px;
+    margin-bottom: 20px;
+}
+
+#imge{
+    position: relative;
+    border-radius: 5px;
+}
+
+#time{
+    position: absolute;
+    top:80px;
+    right: 10px;
+} 
+
+#container2 >p{
+    margin-bottom: 10px;
+}
+#container2 >div{
+    display: flex;
+    gap:5px;
+    color: lightgray;
+}
+
+#sort{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+#head{
+    display: flex;
+    align-items: center;
+    gap:40px;
+    margin-bottom: 20px;
+}
+
+#head>p{
+    font-size: 20px;
+}
+
+#yourComment, #replies{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    
+   
+}
+
+#yourComment > p{
+    color: rgba(201, 198, 198, 0.926);
+    padding:5px;
+    width:100%;
+    border-bottom: 1px solid #80808079;
+
+}
+
+#name-time{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+
+#time1{
+    color: rgba(201, 198, 198, 0.926);
+    font-size:13px;
+}
+
+#reply{
+    cursor: pointer;
+}
+#comment-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:10px;
+}
+
+#container-2{
+    margin-top: 30px;
+}
+#img1 >img{
+   
+   /* margin-top: 0;
+   padding-top: 0; */
+   width:35px;
+   height: 35px;
+   border-radius: 50%;
+   
+}
+.comment-card{
+    display: flex;
+    gap:20px;
+    
+    margin-bottom: 20px;
+}
+
+#div1{
+    display: flex;
+    gap:7px;
+}
+
+#containerReply{
+    margin-left: 40px;
+    font-size: 13px;
+    
+}
+
+#img-cont{
+    position: relative;
+}
+
+.fa-youtube{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    color: red;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#moreVideoTitle{
+    display: inline-block;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
